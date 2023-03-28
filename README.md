@@ -14,3 +14,9 @@ In this repository there will:
 3. git clone repo
 4. install environment if planet environment is not currently activated
     - Launching Planet Jupyter Labs on cyverse automatically activates planet environment
+      * update:* lies, to activate the environment paste
+      conda install -f ../environment.yml
+      
+      
+Quick access committing:
+    git commit -m "words here about what crimes you committed"
