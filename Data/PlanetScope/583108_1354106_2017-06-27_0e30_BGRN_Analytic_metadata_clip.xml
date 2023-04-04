@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ps:EarthObservation xsi:schemaLocation="http://schemas.planet.com/ps/v1/planet_product_metadata_geocorrected_level http://schemas.planet.com/ps/v1/planet_product_metadata_geocorrected_level.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:opt="http://earth.esa.int/opt" xmlns:gml="http://www.opengis.net/gml" xmlns:eop="http://earth.esa.int/eop" version="1.2.1" planet_standard_product_version="1.0" xmlns:ps="http://schemas.planet.com/ps/v1/planet_product_metadata_geocorrected_level">
+  <gml:metaDataProperty>
+    <ps:EarthObservationMetaData>
+      <eop:identifier>583108_1354106_2017-06-27_0e30_BGRN_Analytic</eop:identifier>
+      <eop:acquisitionType>NOMINAL</eop:acquisitionType>
+      <eop:productType>L3A</eop:productType>
+      <eop:status>ARCHIVED</eop:status>
+      <eop:downlinkedTo>
+        <eop:DownlinkInformation>
+          <eop:acquisitionStation codeSpace="urn:eop:PS:stationLocation">Planet Ground Station Network</eop:acquisitionStation>
+          <eop:acquisitionDate>2017-06-27T17:09:00.286051+00:00</eop:acquisitionDate>
+        </eop:DownlinkInformation>
+      </eop:downlinkedTo>
+      <eop:archivedIn>
+        <eop:ArchivingInformation>
+          <eop:archivingCenter codeSpace="urn:eop:PS:stationLocation">Planet Archive Center</eop:archivingCenter>
+          <eop:archivingDate>2017-06-27T17:09:00.286051+00:00</eop:archivingDate>
+          <eop:archivingIdentifier codeSpace="urn:eop:PS:dmsCatalogueId">583108</eop:archivingIdentifier>
+        </eop:ArchivingInformation>
+      </eop:archivedIn>
+      <eop:processing>
+        <eop:ProcessingInformation>
+          <eop:processorName>CMO Patch Processor</eop:processorName>
+          <eop:processorVersion>4.1.4</eop:processorVersion>
+          <eop:nativeProductFormat>GeoTIFF</eop:nativeProductFormat>
+        </eop:ProcessingInformation>
+      </eop:processing>
+      <ps:license>
+        <ps:licenseType>20160101 - Inc - Single User</ps:licenseType>
+        <ps:resourceLink xlink:title="PL EULA" xlink:href="https://assets.planet.com/docs/20160101_Inc_SingleUser.txt" />
+      </ps:license>
+      <ps:versionIsd>1.0</ps:versionIsd>
+      <ps:tileId>1354106</ps:tileId>
+      <ps:pixelFormat>16U</ps:pixelFormat>
+    </ps:EarthObservationMetaData>
+  </gml:metaDataProperty>
+  <gml:validTime>
+    <gml:TimePeriod>
+      <gml:beginPosition>2017-06-27T17:09:00.286051+00:00</gml:beginPosition>
+      <gml:endPosition>2017-06-27T17:09:00.286051+00:00</gml:endPosition>
+    </gml:TimePeriod>
+  </gml:validTime>
+  <gml:using>
+    <eop:EarthObservationEquipment>
+      <eop:platform>
+        <eop:Platform>
+          <eop:shortName>PlanetScope</eop:shortName>
+          <eop:serialIdentifier>0e30</eop:serialIdentifier>
+          <eop:orbitType>LEO-SSO</eop:orbitType>
+        </eop:Platform>
+      </eop:platform>
+      <eop:instrument>
+        <eop:Instrument>
+          <eop:shortName>PS2</eop:shortName>
+        </eop:Instrument>
+      </eop:instrument>
+      <eop:sensor>
+        <ps:Sensor>
+          <eop:sensorType>OPTICAL</eop:sensorType>
+          <eop:resolution uom="m">3.1250</eop:resolution>
+          <ps:scanType>FRAME</ps:scanType>
+        </ps:Sensor>
+      </eop:sensor>
+      <eop:acquisitionParameters>
+        <ps:Acquisition>
+          <eop:orbitDirection>DESCENDING</eop:orbitDirection>
+          <eop:incidenceAngle uom="deg">1.169261e-01</eop:incidenceAngle>
+          <opt:illuminationAzimuthAngle uom="deg">1.012000e+02</opt:illuminationAzimuthAngle>
+          <opt:illuminationElevationAngle uom="deg">6.140000e+01</opt:illuminationElevationAngle>
+          <ps:azimuthAngle uom="deg">1.260000e+01</ps:azimuthAngle>
+          <ps:spaceCraftViewAngle uom="deg">1.000000e-01</ps:spaceCraftViewAngle>
+          <ps:acquisitionDateTime>2017-06-27T17:09:00.286051+00:00</ps:acquisitionDateTime>
+        </ps:Acquisition>
+      </eop:acquisitionParameters>
+    </eop:EarthObservationEquipment>
+  </gml:using>
+  <gml:target>
+    <ps:Footprint>
+      <gml:multiExtentOf>
+        <gml:MultiSurface srsName="EPSG:4326">
+          <gml:surfaceMembers>
+            <gml:MultiPolygon>
+              <gml:polygonMember>
+                <gml:Polygon>
+                  <gml:outerBoundaryIs>
+                    <gml:LinearRing>
+                      <gml:coordinates>-107.056101745799,32.6149075360362 -107.040911863347,32.6120139658214 -107.040503099926,32.5940157249761 -107.056101745799,32.6149075360362</gml:coordinates>
+                    </gml:LinearRing>
+                  </gml:outerBoundaryIs>
+                </gml:Polygon>
+              </gml:polygonMember>
+              <gml:polygonMember>
+                <gml:Polygon>
+                  <gml:outerBoundaryIs>
+                    <gml:LinearRing>
+                      <gml:coordinates>-107.276809551849,32.7169222357368 -107.271224483268,32.7377474071461 -107.263079604096,32.7378889388665 -107.214472541809,32.728628010131 -107.18495,32.706664 -107.046415888055,32.6731500191518 -107.276809551849,32.7169222357368</gml:coordinates>
+                    </gml:LinearRing>
+                  </gml:outerBoundaryIs>
+                </gml:Polygon>
+              </gml:polygonMember>
+            </gml:MultiPolygon>
+          </gml:surfaceMembers>
+        </gml:MultiSurface>
+      </gml:multiExtentOf>
+      <gml:centerOf>
+        <gml:Point srsName="EPSG:4326">
+          <gml:pos>-107.1774410297 32.5942460500</gml:pos>
+        </gml:Point>
+      </gml:centerOf>
+      <ps:geographicLocation>
+        <ps:topLeft>
+          <ps:latitude>32.7378889389</ps:latitude>
+          <ps:longitude>-107.3065899253</ps:longitude>
+        </ps:topLeft>
+        <ps:topRight>
+          <ps:latitude>32.7378889389</ps:latitude>
+          <ps:longitude>-107.0390020981</ps:longitude>
+        </ps:topRight>
+        <ps:bottomRight>
+          <ps:latitude>32.5117253803</ps:latitude>
+          <ps:longitude>-107.0390020981</ps:longitude>
+        </ps:bottomRight>
+        <ps:bottomLeft>
+          <ps:latitude>32.5117253803</ps:latitude>
+          <ps:longitude>-107.3065899253</ps:longitude>
+        </ps:bottomLeft>
+      </ps:geographicLocation>
+    </ps:Footprint>
+  </gml:target>
+  <gml:resultOf>
+    <ps:EarthObservationResult>
+      <eop:product>
+        <ps:ProductInformation>
+          <eop:fileName>/execdir/583108_1354106_2017-06-27_0e30_BGRN_Analytic_clip.tif</eop:fileName>
+          <ps:productFormat>GeoTIFF</ps:productFormat>
+          <ps:spatialReferenceSystem>
+            <ps:epsgCode>32613</ps:epsgCode>
+            <ps:geodeticDatum>WGS_1984</ps:geodeticDatum>
+            <ps:projection>WGS 84 / UTM zone 13N</ps:projection>
+            <ps:projectionZone>13</ps:projectionZone>
+          </ps:spatialReferenceSystem>
+          <ps:resamplingKernel>CC</ps:resamplingKernel>
+          <ps:numRows>5317</ps:numRows>
+          <ps:numColumns>8053</ps:numColumns>
+          <ps:numBands>4</ps:numBands>
+          <ps:rowGsd>3.125</ps:rowGsd>
+          <ps:columnGsd>3.125</ps:columnGsd>
+          <ps:radiometricCorrectionApplied>true</ps:radiometricCorrectionApplied>
+          <ps:geoCorrectionLevel>Precision Geocorrection</ps:geoCorrectionLevel>
+          <ps:elevationCorrectionApplied>FineDEM</ps:elevationCorrectionApplied>
+          <ps:atmosphericCorrectionApplied>false</ps:atmosphericCorrectionApplied>
+        </ps:ProductInformation>
+      </eop:product>
+      <eop:mask>
+        <eop:MaskInformation>
+          <eop:type>UNUSABLE DATA</eop:type>
+          <eop:format>RASTER</eop:format>
+          <eop:referenceSystemIdentifier codeSpace="EPSG">32613</eop:referenceSystemIdentifier>
+          <eop:fileName>/execdir/583108_1354106_2017-06-27_0e30_BGRN_DN_udm_clip.tif</eop:fileName>
+        </eop:MaskInformation>
+      </eop:mask>
+      <opt:cloudCoverPercentage uom="percentage">0.0</opt:cloudCoverPercentage>
+      <opt:cloudCoverPercentageQuotationMode>AUTOMATIC</opt:cloudCoverPercentageQuotationMode>
+      <ps:unusableDataPercentage uom="percentage">37.1938359375</ps:unusableDataPercentage>
+      <ps:bandSpecificMetadata>
+        <ps:bandNumber>1</ps:bandNumber>
+        <!-- Multiply by radiometricScaleFactor to convert DNs to TOA Radiance (watts per steradian per square metre -->
+        <ps:radiometricScaleFactor>0.01</ps:radiometricScaleFactor>
+        <!-- Multiply by reflectanceCoefficient to convert DNs to TOA Reflectance -->
+        <ps:reflectanceCoefficient>1.9092518035862867e-05</ps:reflectanceCoefficient>
+      </ps:bandSpecificMetadata>
+      <ps:bandSpecificMetadata>
+        <ps:bandNumber>2</ps:bandNumber>
+        <!-- Multiply by radiometricScaleFactor to convert DNs to TOA Radiance (watts per steradian per square metre -->
+        <ps:radiometricScaleFactor>0.01</ps:radiometricScaleFactor>
+        <!-- Multiply by reflectanceCoefficient to convert DNs to TOA Reflectance -->
+        <ps:reflectanceCoefficient>2.0390944065231026e-05</ps:reflectanceCoefficient>
+      </ps:bandSpecificMetadata>
+      <ps:bandSpecificMetadata>
+        <ps:bandNumber>3</ps:bandNumber>
+        <!-- Multiply by radiometricScaleFactor to convert DNs to TOA Radiance (watts per steradian per square metre -->
+        <ps:radiometricScaleFactor>0.01</ps:radiometricScaleFactor>
+        <!-- Multiply by reflectanceCoefficient to convert DNs to TOA Reflectance -->
+        <ps:reflectanceCoefficient>2.2801805119513282e-05</ps:reflectanceCoefficient>
+      </ps:bandSpecificMetadata>
+      <ps:bandSpecificMetadata>
+        <ps:bandNumber>4</ps:bandNumber>
+        <!-- Multiply by radiometricScaleFactor to convert DNs to TOA Radiance (watts per steradian per square metre -->
+        <ps:radiometricScaleFactor>0.01</ps:radiometricScaleFactor>
+        <!-- Multiply by reflectanceCoefficient to convert DNs to TOA Reflectance -->
+        <ps:reflectanceCoefficient>3.5488981313944664e-05</ps:reflectanceCoefficient>
+      </ps:bandSpecificMetadata>
+    </ps:EarthObservationResult>
+  </gml:resultOf>
+</ps:EarthObservation>
