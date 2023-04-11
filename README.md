@@ -1,14 +1,16 @@
-# Detecting Shallow Groundwater on the Rio Grande using Planet Basemaps
+# onnecting NDVI, Groundwater, and Stream Disconnection During Drought: Case Study along the Rio Grande
+#### Repo for Data Challenge
 #### Written by Danielle Tadych
 
 The purpose of this repository is to be a hub for working with Planet Data and also a final deliverable for the data challenge 2023.
 
-In this repository there will:
- - A python notebook for pulling data from this repository
- - A python notebook for requesting Reflectance Basemap data
- - A python notebook for analyzing Planet data and creating NDVI Products
+In this repository there is:
+ - RioGrandeAnalysis.ipynb: A python notebook for analyzing Planet data and creating NDVI Products.  This also contains final Results
+ - AOI: Files for areas of interest
+ - Tutorials: Tutorials from Planet Jupyter notebooks repository
+ - outputfiles: Location of output files from analysis
 
-### Workflow:
+### Workflow for working on Virtual Machines:
 1. Launch virtual machine on cyverse
 2. Navigate to /home/jovyan/data-store
 3. git clone repo
