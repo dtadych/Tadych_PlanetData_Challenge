@@ -1,4 +1,4 @@
-# onnecting NDVI, Groundwater, and Stream Disconnection During Drought: Case Study along the Rio Grande
+# Connecting NDVI, Groundwater, and Stream Disconnection During Drought: Case Study along the Rio Grande
 #### Repo for Data Challenge
 #### Written by Danielle Tadych
 
