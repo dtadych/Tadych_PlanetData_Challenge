@@ -5,8 +5,10 @@
 The purpose of this repository is to be a hub for working with Planet Data and also a final deliverable for the data challenge 2023.
 
 In this repository there is:
- - RioGrandeAnalysis.ipynb: A python notebook for analyzing Planet data and creating NDVI Products.  This also contains final Results
+ - DataChallengeReport_RioGrandeAnalysis.ipynb: A python notebook for analyzing Planet data and creating NDVI Products.  This also contains final Results
+ - RioGrandeAnalysis_Expanded.ipynb: This is a python notebook similar to the "DataChallengeReport...", however it is expanded to include the ability to create areas of interest and order data from planet.
  - AOI: Files for areas of interest
+ - data: place to store order files from planet
  - Tutorials: Tutorials from Planet Jupyter notebooks repository
  - outputfiles: Location of output files from analysis
 
